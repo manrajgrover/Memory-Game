@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    font - family: 'Open Sans', sans - serif;
+}
+#showscore {
+    font - size: 65px;
+    text - align: center;
+}
+#newgame {
+    font - size: 50px;
+    text - align: center;
+    cursor: pointer;
+}
+#game {
+    width: 337px;
+    display: block;
+    height: 228px;
+    margin - left: auto;
+    margin - right: auto;
+    background: none repeat scroll 0 % 0 % grey;
+    padding: 20px;
+    border - radius: 5px;
+    margin - top: 100px;
+}
+#tile_0, #tile_1, #tile_2, #tile_3, #tile_4, #tile_5, #tile_6, #tile_7, #tile_8, #tile_9, #tile_10, #tile_11, #tile_12, #tile_13, #tile_14, #tile_15, #tile_16, #tile_17, #tile_18, #tile_19, #tile_20, #tile_21, #tile_22, #tile_23 {
+    float: left;
+    background: none repeat scroll 0 % 0 % lightgrey;
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    border - radius: 2px;
+    cursor: pointer;
+    text - align: center;
+    font - size: 34px;
+}
+#heading {
+    font - size: 50px;
+    color: grey;
+    margin - left: auto;
+    margin - right: auto;
+    width: 350px;
+    margin - top: 30px;
+}
+#score {
+    position: relative;
+    width: 200px;
+    border: 1px solid rgb(102, 102, 102);
+    height: 38px;
+    font - size: 30px;
+    text - align: center;
+    padding: 3px;
+    margin - left: auto;
+    margin - right: auto;
+    top: 30px;
+    color: rgb(102, 102, 102);
+}
